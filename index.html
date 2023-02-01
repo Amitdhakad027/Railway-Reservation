@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BOOK train seat</title>
+        <link rel="stylesheet" href="scd.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="brand"><img src="amit.png" alt="Book"></li>
+                    <li>home</li>
+                    <li>About</li>     
+            </ul>
+            
+        </nav>
+        <div class="movie-container">
+            <label>Ticket Type </label>
+            <select id="movie">
+              <option>Selected</option>
+              <option value="440">Premium (RS.440)</option>
+              <option value="320">Standard (RS.320)</option>
+               
+            </select>
+          </div>
+          <div class="Qty-container">
+            <label>Qty</label>
+            <select id="Qty">
+              <option value="1">Qty</option>
+            </select>
+
+          </div>
+      
+          <ul class="showcase">
+            <li>
+              <div class="seat"></div>
+              <small>Available</small>
+            </li>
+            <li>
+              <div class="seat selected"></div>
+              <small>Selected</small>
+            </li>
+            <li>
+              <div class="seat sold"></div>
+              <small>Unavailable</small>
+            </li>
+          </ul>
+          <div class="container">
+            <div class="screen"></div>
+      
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+      
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat sold"></div>
+              <div class="seat sold"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat sold"></div>
+              <div class="seat sold"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat sold"></div>
+              <div class="seat sold"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+            </div>
+            <div class="row">
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat"></div>
+              <div class="seat sold"></div>
+              <div class="seat sold"></div>
+              <div class="seat sold"></div>
+              <div class="seat"></div>
+            </div>
+          </div>
+      
+          <p class="text">
+            You have selected <span id="count">0</span> seat for a price of RS.<span
+              id="total"
+              >0</span>
+          </p>
+          <div class="proced-container">
+            <label>proced</label>
+            <select id="proced">
+              <option value="1">Save</option>
+              <option>payment</option>
+            </select>
+          </div>
+        <script src="javs.js"></script>
+    </body>
+</html>
